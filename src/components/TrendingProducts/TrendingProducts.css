@@ -1,0 +1,114 @@
+.trending-carousel.embla {
+  margin: auto;
+  position: relative;
+}
+.trending-carousel .embla__viewport {
+  overflow: hidden;
+  padding: 12px;
+}
+.trending-carousel .embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(20px * -1);
+}
+.trending-carousel .embla__slide {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 100%;
+  min-width: 0;
+  padding-left: 20px;
+}
+.trending-carousel .embla__slide__number {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  border-radius: 1.8rem;
+  font-size: 4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--slide-height);
+  user-select: none;
+}
+.trending-carousel .embla__controls.embla__controls-trending-prod {
+  display: grid;
+  grid-template-columns: inherit;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 0;
+  position: static;
+  right: 0;
+  left: 0;
+  top: inherit;
+  transform: inherit;
+}
+.trending-carousel
+  .embla__controls.embla__controls-trending-prod
+  .embla__buttons {
+  position: static;
+  top: inherit;
+  width: 100%;
+}
+.trending-carousel .embla__dots {
+  display: none;
+}
+
+.heading-row {
+  padding-bottom: 1.5rem;
+}
+@media (width >= 768px) {
+  .trending-carousel .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+}
+@media (width >= 992px) {
+  .trending-carousel .embla__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(20px * -1);
+  }
+  .trending-carousel .embla__slide {
+    flex: 0 0 50%; /* Breakpoint SM slide covers 50% of the viewport */
+    padding-left: 30px;
+  }
+  .trending-carousel .heading-row {
+    padding-bottom: 4.5rem;
+  }
+  .trending-carousel .embla__controls.embla__controls-trending-prod {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    gap: 1.2rem;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .trending-carousel .embla__viewport {
+    overflow: hidden;
+    padding: 24px;
+  }
+  .trending-carousel
+    .embla__controls.embla__controls-trending-prod
+    .embla__buttons
+    .embla__button {
+    position: absolute;
+  }
+  .trending-carousel
+    .embla__controls.embla__controls-trending-prod
+    .embla__buttons
+    .embla__button.embla__button--prev {
+    left: -40px;
+  }
+  .trending-carousel
+    .embla__controls.embla__controls-trending-prod
+    .embla__buttons
+    .embla__button.embla__button--next {
+    right: -40px;
+  }
+  .trending-carousel .embla__dots {
+    display: flex;
+    justify-content: center;
+  }
+}

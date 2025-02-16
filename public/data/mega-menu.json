@@ -1,0 +1,15 @@
+[
+  {
+    "product_id": "VAY-001",
+    "slug": "location",
+    "product_name": "LOCATION",
+    "subproducts": [
+      { "name": "Chaka Block","slug": "chaka" },
+      { "name": "Karchana","slug": "karchana" },
+      { "name": "Sankargarh","slug": "sankargarh" },
+      { "name": "Dhanupur","slug": "dhanupur" },
+      { "name": "Jasara","slug":"jasara" }
+    ]
+  }
+]
+  

@@ -1,0 +1,13 @@
+$black: #000;
+$white: #fff;
+$primary-black: #070707;
+$primary-light-blue: #add8e6;
+$secondary-light-blue: #f0f8ff;
+$primary-green: #8eb15c;
+$dark-blue: #2962dd;
+
+$primary: $primary-light-blue;
+$secondary: $white;
+$grid-gutter-width: 3rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

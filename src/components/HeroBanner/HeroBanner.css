@@ -1,0 +1,118 @@
+.home-banner.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  height: calc(100vh - var(--nav-height));
+}
+.home-banner .row {
+  margin: inherit;
+  flex-direction: column-reverse;
+  height: 100%;
+}
+.home-banner .row [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+.banner-slider {
+  height: 50%;
+}
+.banner-slider .slide,
+.banner-slider .slide .carousel-inner,
+.banner-slider .slide .carousel-inner .carousel-item {
+  height: 100%;
+}
+.banner-slider .slide .carousel-inner .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.home-banner .banner-content {
+  padding: 24px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+}
+.home-banner .banner-content h1 {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.home-banner .banner-content p {
+  text-align: left;
+  line-height: 17px;
+  color: #5c5c5c;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  height: 32px;
+  width: 32px;
+  background-color: var(--white);
+  opacity: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-control-prev {
+  background-image: url(../../../public/ico_arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 14px;
+}
+.carousel-control-next {
+  background-image: url(../../../public/ico_arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  right: 14px;
+}
+.btn-text-icon {
+  align-self: baseline;
+  margin-top: 2rem;
+}
+@media (width >= 768px) {
+  .home-banner .row {
+    margin: inherit;
+    flex-direction: row;
+  }
+  .banner-slider {
+    height: 100%;
+  }
+  .home-banner .banner-content {
+    height: 100%;
+  }
+  .home-banner .banner-content h1 {
+    margin-bottom: 30px;
+  }
+  .home-banner .banner-content p {
+    line-height: 28px;
+  }
+  .btn-text-icon {
+    margin-top: 3rem;
+  }
+}
+@media (width >=992px) {
+  .home-banner .banner-content {
+    padding: 24px 24px 24px 50px !important;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 66px;
+    width: 66px;
+  }
+  .carousel-control-prev {
+    background-image: url(../../../public/ico_arrow-left.svg);
+    background-size: 24px;
+    left: 66px;
+  }
+  .carousel-control-next {
+    background-image: url(../../../public/ico_arrow-right.svg);
+    background-size: 24px;
+    right: 66px;
+  }
+  .btn-text-icon {
+    margin-top: 4.5rem;
+  }
+}
+@media (width >=1200px) {
+  .home-banner .banner-content {
+    padding: 24px 24px 24px 100px !important;
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "chaka": {
+    "product_name": "EGG POWDER",
+    "slug": "egg-powder",
+    "description": "Detailed description here...",
+    "image": "https://example.com/images/egg-powder.jpg",
+    "subproducts": [
+      {
+        "name": "Whole Egg Powder",
+        "slug": "whole-egg-powder",
+        "short_description": "Description here...",
+        "image": "https://example.com/images/whole-egg.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Egg Whites Powder",
+        "slug": "egg-whites-powder",
+        "short_description": "Description here...",
+        "image": "https://example.com/images/whole-egg.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Egg Yolk Powder",
+        "slug": "egg-yolk-powder",
+        "short_description": "Description here...",
+        "image": "https://example.com/images/whole-egg.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Egg Shells Powder",
+        "slug": "egg-shells-powder",
+        "short_description": "Description here...",
+        "image": "https://example.com/images/whole-egg.jpg",
+        "tag": "Eco-friendly"
+      }
+    ]
+  },
+  "tea": {
+    "product_name": "TEA",
+    "slug": "tea",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+    "image": "https://example.com/images/tea.jpg",
+    "subproducts": [
+      {
+        "name": "Black Tea",
+        "slug": "black-tea",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Green Tea",
+        "slug": "green-tea",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Oolong",
+        "slug": "oolong",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Masala",
+        "slug": "masala",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "CTC(cut, tear, curl)",
+        "slug": "ctc",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "White Tea",
+        "slug": "white-tea",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      }
+    ]
+  },
+  "coffee": {
+    "product_name": "COFFEE",
+    "slug": "coffee",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+    "image": "https://example.com/images/tea.jpg",
+    "subproducts": [
+      {
+        "name": "Arabica",
+        "slug": "arabica",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Robusta",
+        "slug": "robusta",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Green Coffee Beans",
+        "slug": "green-coffee-beans",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Roasted Coffee Beans",
+        "slug": "roasted-coffee-beans",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Instant Coffee",
+        "slug": "instant-coffee",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      },
+      {
+        "name": "Liberica",
+        "slug": "liberica",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "https://example.com/images/green-tea.jpg",
+        "tag": "Eco-friendly"
+      }
+    ]
+  }
+}
+
+  

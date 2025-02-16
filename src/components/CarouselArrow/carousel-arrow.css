@@ -1,0 +1,79 @@
+.embla {
+  position: relative;
+}
+.embla__controls {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.embla__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.embla__button {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  width: 37px;
+  height: 37px;
+  z-index: 1;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.embla__button:disabled {
+  color: var(--detail-high-contrast);
+}
+.embla__button__svg {
+  width: 35%;
+  height: 35%;
+}
+.embla__button--next {
+  justify-self: end;
+}
+@media (width >= 992px) {
+  .embla__controls {
+    display: grid;
+    grid-template-columns: inherit;
+    justify-content: end;
+    gap: 1.2rem;
+    position: static;
+    left: inherit;
+    top: inherit;
+    transform: inherit;
+    z-index: 1;
+    height: 55px;
+  }
+  .embla__buttons {
+    position: relative;
+    top: -40px;
+  }
+  .embla__button {
+    height: 55px;
+    width: 55px;
+    border: none;
+
+    background: #f7f5f7;
+  }
+}

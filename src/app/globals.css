@@ -1,0 +1,403 @@
+@import "../../sass/main.css";
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Ultralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Thin.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-RegularItalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Bold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --primary-black: #070707;
+  --primary-light-blue: #add8e6;
+  --secondary-light-blue: #f0f8ff;
+  --primary-green: #8eb15c;
+  --light-gray-bg: #f7f9fa;
+  --dark-blue: #2962dd;
+  --primary-font: "Helvetica Neue", sans-serif;
+  --body-font: "Helvetica Neue", sans-serif;
+  --nav-height: 80px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: var(--body-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary-font);
+  color: var(--primary-black);
+  font-weight: 500;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* container gutter margin */
+
+/* Style guide begins */
+section.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+p {
+  font-size: 12px;
+  line-height: 17px;
+}
+.heading-1 {
+  font-size: 27px;
+  line-height: 35px;
+}
+.heading-2 {
+  font-size: 27px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+.heading-3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btn {
+  font-size: 16px;
+  line-height: normal;
+  font-family: var(--primary-font);
+  padding: 8px 20px;
+  white-space: nowrap;
+}
+.btn-text-icon {
+  height: 38px;
+  display: inline-block;
+  background-color: var(--primary-light-blue);
+  color: var(--black);
+  font-size: 12px;
+  text-decoration: none;
+  box-shadow: 0px 3px 6px #00000036;
+  position: relative;
+  padding-left: 32px;
+  padding-right: 70px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  .btn-text {
+    display: inline-block;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-icon {
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    background-color: var(--secondary-light-blue);
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="11.135" height="19.474" viewBox="0 0 11.135 19.474"><path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M19.024,15.93,11.655,8.566a1.386,1.386,0,0,1,0-1.966,1.4,1.4,0,0,1,1.971,0l8.349,8.343a1.389,1.389,0,0,1,.041,1.919l-8.384,8.4A1.392,1.392,0,1,1,11.661,23.3Z" transform="translate(-11.246 -6.196)" fill="%23070707"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+.btn-text-icon:hover {
+  box-shadow: 0px 1px 2px #00000036;
+}
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  svg path {
+    fill: var(--dark-blue);
+  }
+}
+
+/* cta styles */
+
+@media (width>= 768px) {
+  section.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .heading-1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .heading-2 {
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 12px;
+  }
+  .heading-3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .btn {
+    font-size: 18px;
+    padding: 10px 22px;
+  }
+  .btn-text-icon {
+    height: 42px;
+    font-size: 16px;
+    box-shadow: 0px 3px 6px #00000036;
+    padding-left: 30px;
+    padding-right: 80px;
+    .btn-text {
+      height: 42px;
+    }
+    .btn-icon {
+      height: 42px;
+      width: 42px;
+    }
+  }
+}
+@media (width>= 992px) {
+  :root {
+    --nav-height: 144px;
+  }
+  section.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .heading-1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .heading-2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 1rem;
+  }
+  .heading-3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .btn {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+  .btn-text-icon {
+    height: 60px;
+    font-size: 20px;
+    box-shadow: 0px 6px 10px #00000036;
+    padding-left: 40px;
+    padding-right: 100px;
+    .btn-text {
+      height: 60px;
+    }
+    .btn-icon {
+      height: 60px;
+      width: 60px;
+    }
+  }
+}
+@media (width>= 1200px) {
+  section.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .heading-1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .heading-2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .heading-3 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+@media (width>= 1400px) {
+  p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .heading-1 {
+    font-size: 55px;
+    line-height: 72px;
+  }
+  .heading-2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .heading-3 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}

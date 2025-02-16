@@ -1,0 +1,115 @@
+[
+    {
+      "product_id": "VAY-001",
+      "product_name": "INDIAN FESTIVE CLOTHING",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+      "image": "https://example.com/images/tea.jpg",
+      "tag": "Organic"
+    },
+    {
+      "product_id": "VAY-002",
+      "product_name": "EGG POWDER",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+      "image": "https://example.com/images/tea.jpg",
+      "tag": "Organic"
+    },
+    {
+        "product_id": "VAY-003",
+        "product_name": "TEA",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-004",
+        "product_name": "COFFEE",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-005",
+        "product_name": "HANDICRAFTS",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-006",
+        "product_name": "FRUITS AND VEGETABLES",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-007",
+        "product_name": "TEXTILES",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      }, 
+      {
+        "product_id": "VAY-008",
+        "product_name": "OILS",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-009",
+        "product_name": "JUICE POEDERS",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      }, 
+      {
+        "product_id": "VAY-0010",
+        "product_name": "AYURVEDIC",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-0011",
+        "product_name": "EXOTIC",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-0012",
+        "product_name": "LAC",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-0013",
+        "product_name": "ALOE VERA",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-0014",
+        "product_name": "CARPETS",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-0015",
+        "product_name": "HOP SHOOTS",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      },
+      {
+        "product_id": "VAY-0016",
+        "product_name": "SOAP",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et nulla ac eros interdum commodo. Duis id pretium magna.",
+        "image": "https://example.com/images/tea.jpg",
+        "tag": "Organic"
+      }         
+  ]
+  
