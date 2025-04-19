@@ -7,6 +7,13 @@ import {
   AccordionDetails,
   Typography,
   CircularProgress,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
@@ -102,13 +109,13 @@ export default function SoilAnalysisPage() {
   ) => (
     <Accordion sx={{ backgroundColor: '#F1F5F9' }}>
       <AccordionSummary sx={{
-                              backgroundColor: '#1E3A8A',
-                              color: '#FFFFFF',
-                              '&:hover': {
-                                backgroundColor: '#1E40AF', // Darker shade on hover
-                              },
-                            }} expandIcon={<ExpandMoreIcon />}>
-        <Typography sx={{ color: '#FFFFFF' }} variant="h6">{title}</Typography>
+        backgroundColor: '#add8e6',
+        color: '#000',
+        '&:hover': {
+          backgroundColor: '#f0f8ff',
+        },
+      }} expandIcon={<ExpandMoreIcon sx={{ color: '#000' }} />}>
+        <Typography sx={{ color: '#000' }} variant="h6">{title}</Typography>
       </AccordionSummary>
       <AccordionDetails sx={{ color: '#374151' }}>
         {locations.map((loc) => (
@@ -123,93 +130,213 @@ export default function SoilAnalysisPage() {
 
   return (
     <div style={{ maxWidth: "800px", margin: "auto", padding: "1rem" }}>
-      <h1 style={{ margin: "auto", padding: "1rem",textAlign:"center" ,fontSize:"20px"}}>Soil Analysis for <b>{location}</b></h1>
+      <h1 style={{ margin: "auto", padding: "1rem", textAlign: "center", fontSize: "20px" }}>
+        Soil Analysis for <b>{location}</b>
+      </h1>
 
       {renderByLocation("Microscope Examination", (loc) => (
-        <div>
-          <p>{soilData.MicroscopeExamination[loc].result}</p>
-          {soilData.MicroscopeExamination[loc].image && (
-            <img
-              src={soilData.MicroscopeExamination[loc].image}
-              alt={`${loc} Microscope`}
-              style={{ maxWidth: "100%", marginTop: "0.5rem" }}
-            />
-          )}
-        </div>
+        <TableContainer component={Paper} sx={{ marginTop: 2 }}>
+          <Table aria-label="microscope examination table">
+            <TableHead sx={{ backgroundColor: "#1E3A8A" }}>
+              <TableRow>
+                <TableCell sx={{ color: "#fff" }}>Result</TableCell>
+                <TableCell sx={{ color: "#fff" }}>Image</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell>{soilData.MicroscopeExamination[loc].result}</TableCell>
+                <TableCell>
+                  {soilData.MicroscopeExamination[loc].image ? (
+                    <img
+                      src={soilData.MicroscopeExamination[loc].image}
+                      alt={`${loc} Microscope`}
+                      style={{ maxWidth: "100px", maxHeight: "100px" }}
+                    />
+                  ) : (
+                    "No Image"
+                  )}
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
       ))}
 
-      {renderByLocation("Color Examination - Dry", (loc) => (
-        <>
-          <p>Result: {soilData.ColorExaminationDry[loc].result}</p>
-          <p>Observation: {soilData.ColorExaminationDry[loc].observation}</p>
-        </>
-      ))}
+{renderByLocation("Color Examination - Dry", (loc) => (
+  <TableContainer component={Paper} sx={{ marginTop: 2 }}>
+    <Table aria-label="color examination dry table">
+      <TableHead sx={{ backgroundColor: "#1E3A8A" }}>
+        <TableRow>
+          <TableCell sx={{ color: "#fff" }}>Result</TableCell>
+          <TableCell sx={{ color: "#fff" }}>Observation</TableCell>
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        <TableRow>
+          <TableCell>{soilData.ColorExaminationDry[loc].result}</TableCell>
+          <TableCell>{soilData.ColorExaminationDry[loc].observation}</TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </TableContainer>
+))}
 
-      {renderByLocation("Color Examination - Wet", (loc) => (
-        <>
-          <p>Result: {soilData.ColorExaminationWet[loc].result}</p>
-          <p>Observation: {soilData.ColorExaminationWet[loc].observation}</p>
-        </>
-      ))}
+
+{renderByLocation("Color Examination - Wet", (loc) => (
+  <TableContainer component={Paper} sx={{ marginTop: 2 }}>
+    <Table aria-label="color examination wet table">
+      <TableHead sx={{ backgroundColor: "#1E3A8A" }}>
+        <TableRow>
+          <TableCell sx={{ color: "#fff" }}>Result</TableCell>
+          <TableCell sx={{ color: "#fff" }}>Observation</TableCell>
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        <TableRow>
+          <TableCell>{soilData.ColorExaminationWet[loc].result}</TableCell>
+          <TableCell>{soilData.ColorExaminationWet[loc].observation}</TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </TableContainer>
+))}
+
 
       {renderByLocation("pH Examination", (loc) => (
-        <>
-          <p>pH Value: {soilData.PHExamination[loc].pHValue}</p>
-          <p>pH Range: {soilData.PHExamination[loc].pHRange}</p>
-        </>
+        <TableContainer component={Paper} sx={{ marginTop: 2 }}>
+          <Table aria-label="pH examination table">
+            <TableHead sx={{ backgroundColor: "#1E3A8A" }}>
+              <TableRow>
+                <TableCell sx={{ color: "#fff" }}>pH Value</TableCell>
+                <TableCell sx={{ color: "#fff" }}>pH Range</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell>{soilData.PHExamination[loc].pHValue}</TableCell>
+                <TableCell>{soilData.PHExamination[loc].pHRange}</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
       ))}
 
-      {renderByLocation("Density Examination", (loc) => (
-        <>
-          <p>Column: {soilData.DensityExamination[loc].column}</p>
-          <p>Density: {soilData.DensityExamination[loc].density}</p>
-        </>
-      ))}
+
+     {renderByLocation("Density Examination", (loc) => (
+       <TableContainer component={Paper} sx={{ marginTop: 2 }}>
+         <Table aria-label="density examination table">
+           <TableHead sx={{ backgroundColor: "#1E3A8A" }}>
+             <TableRow>
+               <TableCell sx={{ color: "#fff" }}>Column</TableCell>
+               <TableCell sx={{ color: "#fff" }}>Density</TableCell>
+             </TableRow>
+           </TableHead>
+           <TableBody>
+             <TableRow>
+               <TableCell>{soilData.DensityExamination[loc].column}</TableCell>
+               <TableCell>{soilData.DensityExamination[loc].density}</TableCell>
+             </TableRow>
+           </TableBody>
+         </Table>
+       </TableContainer>
+     ))}
+
 
       {renderByLocation("Particle Size Distribution", (loc) => (
-        <table style={{ width: "100%", borderCollapse: "collapse" }}>
-          <thead>
-            <tr>
-              <th>Sieve Size</th>
-              <th>Weight Retained</th>
-              <th>% Retained</th>
-              <th>Cumulative %</th>
-              <th>% Finer</th>
-            </tr>
-          </thead>
-          <tbody>
-            {soilData.ParticleSizeDistribution[loc].map((entry, idx) => (
-              <tr key={idx}>
-                <td>{entry.sieveSize}</td>
-                <td>{entry.weightRetained}</td>
-                <td>{entry.percentRetained}</td>
-                <td>{entry.cumulativeRetained}</td>
-                <td>{entry.percentFiner}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <TableContainer component={Paper} sx={{ marginTop: 2 }}>
+          <Table aria-label="particle size table">
+            <TableHead sx={{ backgroundColor: "#1E3A8A" }}>
+              <TableRow>
+                <TableCell sx={{ color: "#fff" }}>Sieve Size</TableCell>
+                <TableCell sx={{ color: "#fff" }}>Weight Retained</TableCell>
+                <TableCell sx={{ color: "#fff" }}>% Retained</TableCell>
+                <TableCell sx={{ color: "#fff" }}>Cumulative %</TableCell>
+                <TableCell sx={{ color: "#fff" }}>% Finer</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {soilData.ParticleSizeDistribution[loc].map((entry, idx) => (
+                <TableRow key={idx}>
+                  <TableCell>{entry.sieveSize}</TableCell>
+                  <TableCell>{entry.weightRetained}</TableCell>
+                  <TableCell>{entry.percentRetained}</TableCell>
+                  <TableCell>{entry.cumulativeRetained}</TableCell>
+                  <TableCell>{entry.percentFiner}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
       ))}
 
       {renderByLocation("Percentage Organic Content", (loc) => (
-        <p>{soilData.PercentageOrganicContent[loc]}</p>
+        <TableContainer component={Paper} sx={{ marginTop: 2 }}>
+          <Table aria-label="percentage organic content table">
+            <TableHead sx={{ backgroundColor: "#1E3A8A" }}>
+              <TableRow>
+                <TableCell sx={{ color: "#fff" }}>Location</TableCell>
+                <TableCell sx={{ color: "#fff" }}>Organic Content (%)</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell>{loc}</TableCell>
+                <TableCell>{soilData.PercentageOrganicContent[loc]}</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
       ))}
+
 
       {renderByLocation("Soil Consistency Estimation", (loc) => (
-        <>
-          <p>Stickiness: {soilData.SoilConsistencyEstimation[loc].stickiness}</p>
-          <p>Plasticity: {soilData.SoilConsistencyEstimation[loc].plasticity}</p>
-        </>
+        <TableContainer component={Paper} sx={{ marginTop: 2 }}>
+          <Table aria-label="soil consistency table">
+            <TableHead sx={{ backgroundColor: "#1E3A8A" }}>
+              <TableRow>
+                <TableCell sx={{ color: "#fff" }}>Location</TableCell>
+                <TableCell sx={{ color: "#fff" }}>Stickiness</TableCell>
+                <TableCell sx={{ color: "#fff" }}>Plasticity</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell>{loc}</TableCell>
+                <TableCell>{soilData.SoilConsistencyEstimation[loc].stickiness}</TableCell>
+                <TableCell>{soilData.SoilConsistencyEstimation[loc].plasticity}</TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
+        </TableContainer>
       ))}
 
-      {renderByLocation("Soil Texture Examination", (loc) => (
-        <>
-          <p>Sand: {soilData.SoilTextureExamination[loc].sand}</p>
-          <p>Silt: {soilData.SoilTextureExamination[loc].silt}</p>
-          <p>Clay: {soilData.SoilTextureExamination[loc].clay}</p>
-          <p>Texture Class: {soilData.SoilTextureExamination[loc].textureClass}</p>
-        </>
-      ))}
+
+{renderByLocation("Soil Texture Examination", (loc) => (
+  <TableContainer component={Paper} sx={{ marginTop: 2 }}>
+    <Table aria-label="soil texture table">
+      <TableHead sx={{ backgroundColor: "#1E3A8A" }}>
+        <TableRow>
+          <TableCell sx={{ color: "#fff" }}>Location</TableCell>
+          <TableCell sx={{ color: "#fff" }}>Sand (%)</TableCell>
+          <TableCell sx={{ color: "#fff" }}>Silt (%)</TableCell>
+          <TableCell sx={{ color: "#fff" }}>Clay (%)</TableCell>
+          <TableCell sx={{ color: "#fff" }}>Texture Class</TableCell>
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        <TableRow>
+          <TableCell>{loc}</TableCell>
+          <TableCell>{soilData.SoilTextureExamination[loc].sand}</TableCell>
+          <TableCell>{soilData.SoilTextureExamination[loc].silt}</TableCell>
+          <TableCell>{soilData.SoilTextureExamination[loc].clay}</TableCell>
+          <TableCell>{soilData.SoilTextureExamination[loc].textureClass}</TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </TableContainer>
+))}
+
     </div>
   );
 }
