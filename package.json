@@ -10,7 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@firebase/firestore": "^4.7.6",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
     "@ntegral/react-owl-carousel": "^1.0.1",
     "bootstrap": "^5.3.3",
     "embla-carousel-auto-scroll": "^8.5.2",

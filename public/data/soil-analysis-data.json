@@ -1,0 +1,366 @@
+{
+  "chaka": {
+    "MicroscopeExamination": {
+      "Block": {
+        "image": "",
+        "result": "Yellowish brown colour soil. Absence of lime slag coal broken brick and ash particle "
+      },
+      "Playground": {
+        "image": "",
+        "result": "Brown colour soil. Absence of lime slag coal broken brick and ash particle"
+      },
+      "Agriculture": {
+        "image": "",
+        "result": "Dark Brown colour soil. Presence of stone particles and Absence of lime slag coal broken brick and ash particle"
+      }
+    },
+    "ColorExaminationDry": {
+      "Block": {
+        "observation": "10YR5/4",
+        "result": "YELLOWISH BROWN"
+      },
+      "Playground": {
+        "observation": "10YR6/3",
+        "result": "PALE BROWN"
+      },
+      "Agriculture": {
+        "observation": "10YR6/3",
+        "result": "PALE BROWN"
+      }
+    },
+    "ColorExaminationWet": {
+      "Block": {
+        "observation": "10YR3/2",
+        "result": "VERY DARK GREYISH BROWN"
+      },
+      "Playground": {
+        "observation": "10YR4/2",
+        "result": "DARK GREYISH BROWN"
+      },
+      "Agriculture": {
+        "observation": "10YR5/2",
+        "result": "GREYISH BROWN"
+      }
+    },
+    "PHExamination": {
+      "Block": {
+        "pHValue": "7.40",
+        "pHRange": "Slightly alkaline"
+      },
+      "Playground": {
+        "pHValue": "7.42",
+        "pHRange": "Slightly alkaline "
+      },
+      "Agriculture": {
+        "pHValue": "6.92",
+        "pHRange": "Neutral"
+      }
+    },
+    "DensityExamination": {
+      "Block": {
+        "column": "",
+        "density": ""
+      },
+      "Playground": {
+        "column": "",
+        "density": ""
+      },
+      "Agriculture": {
+        "column": "",
+        "density": ""
+      }
+    },
+    "ParticleSizeDistribution": {
+      "Block": [
+        {
+          "sieveSize": "0.6",
+          "weightRetained": "13.887",
+          "percentRetained": "9.258",
+          "cumulativeRetained": "9.25",
+          "percentFiner": "90.75"
+        },
+        {
+          "sieveSize": "0.425",
+          "weightRetained": "47.388",
+          "percentRetained": "31.592",
+          "cumulativeRetained": "40.84",
+          "percentFiner": "59.16"
+        },
+        {
+          "sieveSize": "0.3",
+          "weightRetained": "42.878",
+          "percentRetained": "29.914",
+          "cumulativeRetained": "70.75",
+          "percentFiner": "29.25"
+        },
+        {
+          "sieveSize": "0.15",
+          "weightRetained": "37.233",
+          "percentRetained": "24.688",
+          "cumulativeRetained": "95.43",
+          "percentFiner": "4.57"
+        },
+        {
+          "sieveSize": "Wpan",
+          "weightRetained": "6.82",
+          "percentRetained": "4.546",
+          "cumulativeRetained": "99.97",
+          "percentFiner": "0.03"
+        }
+      ],
+      "Playground": [
+        {
+          "sieveSize": "0.6",
+          "weightRetained": "29.789",
+          "percentRetained": "19.85",
+          "cumulativeRetained": "19.85",
+          "percentFiner": "80.15"
+        },
+        {
+          "sieveSize": "0.425",
+          "weightRetained": "32.935",
+          "percentRetained": "21.95",
+          "cumulativeRetained": "41.8",
+          "percentFiner": "58"
+        },
+        {
+          "sieveSize": "0.3",
+          "weightRetained": "49.650",
+          "percentRetained": "33.1",
+          "cumulativeRetained": "74.9",
+          "percentFiner": "25.1"
+        },
+        {
+          "sieveSize": "0.15",
+          "weightRetained": "15.779",
+          "percentRetained": "10.51",
+          "cumulativeRetained": "85.41",
+          "percentFiner": "14.59"
+        },
+        {
+          "sieveSize": "Wpan",
+          "weightRetained": "21.87",
+          "percentRetained": "14.58",
+          "cumulativeRetained": "99.99",
+          "percentFiner": "0.01"
+        }
+      ],
+      "Agriculture": [
+        {
+          "sieveSize": "0.6",
+          "weightRetained": "12.534",
+          "percentRetained": "8.35",
+          "cumulativeRetained": "8.35",
+          "percentFiner": "91.65"
+        },
+        {
+          "sieveSize": "0.425",
+          "weightRetained": "25.212",
+          "percentRetained": "16.80",
+          "cumulativeRetained": "25.15",
+          "percentFiner": "74.85"
+        },
+        {
+          "sieveSize": "0.3",
+          "weightRetained": "48.625",
+          "percentRetained": "32.41",
+          "cumulativeRetained": "57.56",
+          "percentFiner": "42.49"
+        },
+        {
+          "sieveSize": "0.15",
+          "weightRetained": "19.018",
+          "percentRetained": "12.67",
+          "cumulativeRetained": "70.23",
+          "percentFiner": "29.77"
+        },
+        {
+          "sieveSize": "Wpan",
+          "weightRetained": "44.611",
+          "percentRetained": "29.74",
+          "cumulativeRetained": "99.97",
+          "percentFiner": "0.03"
+        }
+      ]
+    },
+    "PercentageOrganicContent": {
+      "Block": "0.23",
+      "Playground": "0.32",
+      "Agriculture": "0.25"
+    },
+    "SoilConsistencyEstimation": {
+      "Block": {
+        "stickiness": "Slightly sticky",
+        "plasticity": "Slightly plasticity"
+      },
+      "Playground": {
+        "stickiness": "Sticky",
+        "plasticity": "Slightly plasticity"
+      },
+      "Agriculture": {
+        "stickiness": "Sticky",
+        "plasticity": "Slightly plasticity"
+      }
+    },
+    "SoilTextureExamination": {
+      "Block": {
+        "sand": "50",
+        "silt": "5",
+        "clay": "45",
+        "textureClass": "Sandy Clay"
+      },
+      "Playground": {
+        "sand": "50",
+        "silt": "8",
+        "clay": "42",
+        "textureClass": "Sandy Clay"
+      },
+      "Agriculture": {
+        "sand": "68",
+        "silt": "10",
+        "clay": "22",
+        "textureClass": "Sandy Clay Loam"
+      }
+    }
+  },
+  "jasara": {
+    "MicroscopeExamination": {
+      "Block": {
+        "image": "",
+        "result": ""
+      },
+      "Playground": {
+        "image": "",
+        "result": ""
+      },
+      "Agriculture": {
+        "image": "",
+        "result": ""
+      }
+    },
+    "ColorExaminationDry": {
+      "Block": {
+        "observation": "",
+        "result": ""
+      },
+      "Playground": {
+        "observation": "",
+        "result": ""
+      },
+      "Agriculture": {
+        "observation": "",
+        "result": ""
+      }
+    },
+    "ColorExaminationWet": {
+      "Block": {
+        "observation": "",
+        "result": ""
+      },
+      "Playground": {
+        "observation": "",
+        "result": ""
+      },
+      "Agriculture": {
+        "observation": "",
+        "result": ""
+      }
+    },
+    "PHExamination": {
+      "Block": {
+        "pHValue": "",
+        "pHRange": ""
+      },
+      "Playground": {
+        "pHValue": "",
+        "pHRange": ""
+      },
+      "Agriculture": {
+        "pHValue": "",
+        "pHRange": ""
+      }
+    },
+    "DensityExamination": {
+      "Block": {
+        "column": "",
+        "density": ""
+      },
+      "Playground": {
+        "column": "",
+        "density": ""
+      },
+      "Agriculture": {
+        "column": "",
+        "density": ""
+      }
+    },
+    "ParticleSizeDistribution": {
+      "Block": [
+        {
+          "sieveSize": "",
+          "weightRetained": "",
+          "percentRetained": "",
+          "cumulativeRetained": "",
+          "percentFiner": ""
+        }
+      ],
+      "Playground": [
+        {
+          "sieveSize": "",
+          "weightRetained": "",
+          "percentRetained": "",
+          "cumulativeRetained": "",
+          "percentFiner": ""
+        }
+      ],
+      "Agriculture": [
+        {
+          "sieveSize": "",
+          "weightRetained": "",
+          "percentRetained": "",
+          "cumulativeRetained": "",
+          "percentFiner": ""
+        }
+      ]
+    },
+    "PercentageOrganicContent": {
+      "Block": "",
+      "Playground": "",
+      "Agriculture": ""
+    },
+    "SoilConsistencyEstimation": {
+      "Block": {
+        "stickiness": "",
+        "plasticity": ""
+      },
+      "Playground": {
+        "stickiness": "",
+        "plasticity": ""
+      },
+      "Agriculture": {
+        "stickiness": "",
+        "plasticity": ""
+      }
+    },
+    "SoilTextureExamination": {
+      "Block": {
+        "sand": "",
+        "silt": "",
+        "clay": "",
+        "textureClass": ""
+      },
+      "Playground": {
+        "sand": "",
+        "silt": "",
+        "clay": "",
+        "textureClass": ""
+      },
+      "Agriculture": {
+        "sand": "",
+        "silt": "",
+        "clay": "",
+        "textureClass": ""
+      }
+    }
+  }
+}
