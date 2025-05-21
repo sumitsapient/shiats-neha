@@ -3959,7 +3959,7 @@
       }
     }
   },
-  "sVD": {
+  "svd": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -4184,7 +4184,7 @@
       }
     }
   },
-  "sOROAN": {
+  "soroan": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -4410,7 +4410,7 @@
       }
     }
   },
-  "kAURIHARA ": {
+  "kaurihara ": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -4634,7 +4634,7 @@
       }
     }
   },
-  "mAUMIMA": {
+  "maumima": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -4858,7 +4858,7 @@
       }
     }
   },
-  "hOLAGARH": {
+  "holagarh": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -5082,7 +5082,7 @@
       }
     }
   },
-  "bHAGWATPUR ": {
+  "bhagwatpur ": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -5307,4 +5307,3 @@
     }
   }
 }
-
