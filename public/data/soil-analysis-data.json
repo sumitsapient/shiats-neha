@@ -221,6 +221,26 @@
         "clay": "22",
         "textureClass": "Sandy Clay Loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.21",
+        "Cu": "0.02",
+        "Fe": "28.52",
+        "Mn": "3.32"
+      },
+      "Playground": {
+        "Zn": "0.28",
+        "Cu": "0.03",
+        "Fe": "43.01",
+        "Mn": "23.41"
+      },
+      "Agriculture": {
+        "Zn": "0.66",
+        "Cu": "0.09",
+        "Fe": "71.09",
+        "Mn": "41.44"
+      }
     }
   },
   "jasara": {
@@ -447,7 +467,28 @@
         "clay": "22",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.25",
+        "Cu": "0.02",
+        "Fe": "12.05",
+        "Mn": "66.67"
+      },
+      "Playground": {
+        "Zn": "0.35",
+        "Cu": "0.06",
+        "Fe": "4.72",
+        "Mn": "28.43"
+      },
+      "Agriculture": {
+        "Zn": "0.66",
+        "Cu": "0.05",
+        "Fe": "50.37",
+        "Mn": "53.19"
+      }
     }
+
   },
   "shankargarh ": {
     "MicroscopeExamination": {
@@ -671,7 +712,28 @@
         "clay": "26",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.58",
+        "Cu": "0.04",
+        "Fe": "11.78",
+        "Mn": "43.75"
+      },
+      "Playground": {
+        "Zn": "0.47",
+        "Cu": "0.08",
+        "Fe": "50.82",
+        "Mn": "33.71"
+      },
+      "Agriculture": {
+        "Zn": "0.04",
+        "Cu": "0.02",
+        "Fe": "31.93",
+        "Mn": "74.17"
+      }
     }
+
   },
   "Kaundhiyara ": {
     "MicroscopeExamination": {
@@ -896,7 +958,28 @@
         "clay": "20",
         "textureClass": "Loamy sand"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.24",
+        "Cu": "0.06",
+        "Fe": "8.91",
+        "Mn": "75.46"
+      },
+      "Playground": {
+        "Zn": "0.30",
+        "Cu": "0.04",
+        "Fe": "30.28",
+        "Mn": "54.95"
+      },
+      "Agriculture": {
+        "Zn": "0.28",
+        "Cu": "0.03",
+        "Fe": "62.47",
+        "Mn": "5.00"
+      }
     }
+
   },
   "karchana": {
     "MicroscopeExamination": {
@@ -1121,7 +1204,28 @@
         "clay": "24",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.20",
+        "Cu": "0.02",
+        "Fe": "35.68",
+        "Mn": "32.99"
+      },
+      "Playground": {
+        "Zn": "0.29",
+        "Cu": "0.04",
+        "Fe": "51.36",
+        "Mn": "65.92"
+      },
+      "Agriculture": {
+        "Zn": "0.34",
+        "Cu": "0.04",
+        "Fe": "2.59",
+        "Mn": "68.38"
+      }
     }
+
   },
   "meja ": {
     "MicroscopeExamination": {
@@ -1345,7 +1449,28 @@
         "clay": "35",
         "textureClass": "Sandy clay"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.21",
+        "Cu": "0.02",
+        "Fe": "15.37",
+        "Mn": "83.96"
+      },
+      "Playground": {
+        "Zn": "0.33",
+        "Cu": "0.05",
+        "Fe": "14.92",
+        "Mn": "32.25"
+      },
+      "Agriculture": {
+        "Zn": "0.27",
+        "Cu": "0.03",
+        "Fe": "30.21",
+        "Mn": "38.52"
+      }
     }
+
   },
   "uruva": {
     "MicroscopeExamination": {
@@ -1569,7 +1694,28 @@
           "clay": "15",
           "textureClass": "Sandy loam"
         }
+      },
+      "HeavyMetalConcentration": {
+        "Block": {
+          "Zn": "0.52",
+          "Cu": "0.02",
+          "Fe": "40.59",
+          "Mn": "31.27"
+        },
+        "Playground": {
+          "Zn": "0.31",
+          "Cu": "0.04",
+          "Fe": "93.74",
+          "Mn": "74.12"
+        },
+        "Agriculture": {
+          "Zn": "0.34",
+          "Cu": "0.05",
+          "Fe": "14.72",
+          "Mn": "41.31"
+        }
       }
+
     }},
   "koraon": {
     "MicroscopeExamination": {
@@ -1793,7 +1939,28 @@
         "clay": "24",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.01",
+        "Cu": "0.02",
+        "Fe": "65.26",
+        "Mn": "89.97"
+      },
+      "Playground": {
+        "Zn": "0.34",
+        "Cu": "0.06",
+        "Fe": "6.77",
+        "Mn": "26.21"
+      },
+      "Agriculture": {
+        "Zn": "0.31",
+        "Cu": "0.05",
+        "Fe": "35.97",
+        "Mn": "51.21"
+      }
     }
+
   },
   "manda": {
     "MicroscopeExamination": {
@@ -2018,7 +2185,28 @@
         "clay": "30",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.20",
+        "Cu": "0.04",
+        "Fe": "18.02",
+        "Mn": "37.88"
+      },
+      "Playground": {
+        "Zn": "0.36",
+        "Cu": "0.03",
+        "Fe": "3.65",
+        "Mn": "12.53"
+      },
+      "Agriculture": {
+        "Zn": "0.19",
+        "Cu": "0.02",
+        "Fe": "4.33",
+        "Mn": "3.85"
+      }
     }
+
   },
   "saidabad ": {
     "MicroscopeExamination": {
@@ -2242,7 +2430,28 @@
         "clay": "20",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.41",
+        "Cu": "0.06",
+        "Fe": "4.36",
+        "Mn": "13.46"
+      },
+      "Playground": {
+        "Zn": "0.38",
+        "Cu": "0.03",
+        "Fe": "54.07",
+        "Mn": "30.24"
+      },
+      "Agriculture": {
+        "Zn": "0.33",
+        "Cu": "0.04",
+        "Fe": "94.21",
+        "Mn": "45.47"
+      }
     }
+
   },
   "handia ": {
     "MicroscopeExamination": {
@@ -2467,7 +2676,28 @@
         "clay": "14",
         "textureClass": "Sandy loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.21",
+        "Cu": "0.02",
+        "Fe": "58.34",
+        "Mn": "44.31"
+      },
+      "Playground": {
+        "Zn": "0.43",
+        "Cu": "0.06",
+        "Fe": "16.76",
+        "Mn": "29.42"
+      },
+      "Agriculture": {
+        "Zn": "0.32",
+        "Cu": "0.06",
+        "Fe": "16.94",
+        "Mn": "85.14"
+      }
     }
+
   },
   "dhanupur": {
     "MicroscopeExamination": {
@@ -2694,9 +2924,30 @@
         "clay": "10",
         "textureClass": "Loamy sand"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.30",
+        "Cu": "0.02",
+        "Fe": "7.91",
+        "Mn": "23.51"
+      },
+      "Playground": {
+        "Zn": "0.61",
+        "Cu": "0.06",
+        "Fe": "27.53",
+        "Mn": "9.07"
+      },
+      "Agriculture": {
+        "Zn": "0.36",
+        "Cu": "0.04",
+        "Fe": "129.60",
+        "Mn": "69.31"
+      }
     }
+
   },
-  "pratappur": {
+  "pratapur": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -2919,7 +3170,28 @@
         "clay": "10",
         "textureClass": "Sandy loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.31",
+        "Cu": "0.04",
+        "Fe": "BDL",
+        "Mn": "3.03"
+      },
+      "Playground": {
+        "Zn": "0.49",
+        "Cu": "0.04",
+        "Fe": "6.19",
+        "Mn": "28.23"
+      },
+      "Agriculture": {
+        "Zn": "0.42",
+        "Cu": "0.03",
+        "Fe": "3.85",
+        "Mn": "32.78"
+      }
     }
+
   },
   "shasho ": {
     "MicroscopeExamination": {
@@ -3143,7 +3415,28 @@
         "clay": "26",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.28",
+        "Cu": "0.03",
+        "Fe": "42.54",
+        "Mn": "67.89"
+      },
+      "Playground": {
+        "Zn": "0.25",
+        "Cu": "0.02",
+        "Fe": "39.53",
+        "Mn": "41.69"
+      },
+      "Agriculture": {
+        "Zn": "0.46",
+        "Cu": "0.04",
+        "Fe": "9.88",
+        "Mn": "43.65"
+      }
     }
+
   },
   "phulpur": {
     "MicroscopeExamination": {
@@ -3369,146 +3662,27 @@
         "textureClass": "Sandy clay loam"
       }
     },
-    "jasara": {
-      "MicroscopeExamination": {
-        "Block": {
-          "image": "",
-          "result": ""
-        },
-        "Playground": {
-          "image": "",
-          "result": ""
-        },
-        "Agriculture": {
-          "image": "",
-          "result": ""
-        }
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.29",
+        "Cu": "0.03",
+        "Fe": "3.76",
+        "Mn": "27.55"
       },
-      "ColorExaminationDry": {
-        "Block": {
-          "observation": "",
-          "result": ""
-        },
-        "Playground": {
-          "observation": "",
-          "result": ""
-        },
-        "Agriculture": {
-          "observation": "",
-          "result": ""
-        }
+      "Playground": {
+        "Zn": "0.35",
+        "Cu": "0.05",
+        "Fe": "100.51",
+        "Mn": "2.90"
       },
-      "ColorExaminationWet": {
-        "Block": {
-          "observation": "",
-          "result": ""
-        },
-        "Playground": {
-          "observation": "",
-          "result": ""
-        },
-        "Agriculture": {
-          "observation": "",
-          "result": ""
-        }
-      },
-      "PHExamination": {
-        "Block": {
-          "pHValue": "",
-          "pHRange": ""
-        },
-        "Playground": {
-          "pHValue": "",
-          "pHRange": ""
-        },
-        "Agriculture": {
-          "pHValue": "",
-          "pHRange": ""
-        }
-      },
-      "DensityExamination": {
-        "Block": {
-          "column": "",
-          "density": ""
-        },
-        "Playground": {
-          "column": "",
-          "density": ""
-        },
-        "Agriculture": {
-          "column": "",
-          "density": ""
-        }
-      },
-      "ParticleSizeDistribution": {
-        "Block": [
-          {
-            "sieveSize": "",
-            "weightRetained": "",
-            "percentRetained": "",
-            "cumulativeRetained": "",
-            "percentFiner": ""
-          }
-        ],
-        "Playground": [
-          {
-            "sieveSize": "",
-            "weightRetained": "",
-            "percentRetained": "",
-            "cumulativeRetained": "",
-            "percentFiner": ""
-          }
-        ],
-        "Agriculture": [
-          {
-            "sieveSize": "",
-            "weightRetained": "",
-            "percentRetained": "",
-            "cumulativeRetained": "",
-            "percentFiner": ""
-          }
-        ]
-      },
-      "PercentageOrganicContent": {
-        "Block": "",
-        "Playground": "",
-        "Agriculture": ""
-      },
-      "SoilConsistencyEstimation": {
-        "Block": {
-          "stickiness": "",
-          "plasticity": ""
-        },
-        "Playground": {
-          "stickiness": "",
-          "plasticity": ""
-        },
-        "Agriculture": {
-          "stickiness": "",
-          "plasticity": ""
-        }
-      },
-      "SoilTextureExamination": {
-        "Block": {
-          "sand": "",
-          "silt": "",
-          "clay": "",
-          "textureClass": ""
-        },
-        "Playground": {
-          "sand": "",
-          "silt": "",
-          "clay": "",
-          "textureClass": ""
-        },
-        "Agriculture": {
-          "sand": "",
-          "silt": "",
-          "clay": "",
-          "textureClass": ""
-        }
+      "Agriculture": {
+        "Zn": "0.33",
+        "Cu": "0.05",
+        "Fe": "7.76",
+        "Mn": "60.98"
       }
     }
+
   },
   "bahariya": {
     "MicroscopeExamination": {
@@ -3732,7 +3906,28 @@
         "clay": "14",
         "textureClass": "Sandy loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.27",
+        "Cu": "0.04",
+        "Fe": "BDL",
+        "Mn": "45.36"
+      },
+      "Playground": {
+        "Zn": "0.26",
+        "Cu": "0.02",
+        "Fe": "1.40",
+        "Mn": "24.80"
+      },
+      "Agriculture": {
+        "Zn": "0.23",
+        "Cu": "0.04",
+        "Fe": "9.09",
+        "Mn": "32.12"
+      }
     }
+
   },
   "bahadurpur ": {
     "MicroscopeExamination": {
@@ -3957,7 +4152,28 @@
         "clay": "12",
         "textureClass": "Sandy loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "1.7",
+        "Cu": "0.05",
+        "Fe": "22.16",
+        "Mn": "34.75"
+      },
+      "Playground": {
+        "Zn": "0.32",
+        "Cu": "0.03",
+        "Fe": "70.06",
+        "Mn": "27.27"
+      },
+      "Agriculture": {
+        "Zn": "0.27",
+        "Cu": "0.04",
+        "Fe": "4.67",
+        "Mn": "2.45"
+      }
     }
+
   },
   "svd": {
     "MicroscopeExamination": {
@@ -4182,7 +4398,28 @@
         "clay": "20",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.30",
+        "Cu": "0.04",
+        "Fe": "BDL",
+        "Mn": "37.09"
+      },
+      "Playground": {
+        "Zn": "0.35",
+        "Cu": "0.02",
+        "Fe": "32.29",
+        "Mn": "93.97"
+      },
+      "Agriculture": {
+        "Zn": "0.27",
+        "Cu": "0.04",
+        "Fe": "30.21",
+        "Mn": "38.52"
+      }
     }
+
   },
   "soroan": {
     "MicroscopeExamination": {
@@ -4408,7 +4645,28 @@
         "clay": "20",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.30",
+        "Cu": "0.04",
+        "Fe": "41.08",
+        "Mn": "2.86"
+      },
+      "Playground": {
+        "Zn": "0.27",
+        "Cu": "0.05",
+        "Fe": "2.86",
+        "Mn": "7.79"
+      },
+      "Agriculture": {
+        "Zn": "0.24",
+        "Cu": "0.04",
+        "Fe": "7.62",
+        "Mn": "73.03"
+      }
     }
+
   },
   "kaurihara ": {
     "MicroscopeExamination": {
@@ -4632,7 +4890,28 @@
         "clay": "20",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.45",
+        "Cu": "0.03",
+        "Fe": "BDL",
+        "Mn": "8.08"
+      },
+      "Playground": {
+        "Zn": "0.38",
+        "Cu": "0.03",
+        "Fe": "7.73",
+        "Mn": "38.93"
+      },
+      "Agriculture": {
+        "Zn": "0.20",
+        "Cu": "0.05",
+        "Fe": "72.54",
+        "Mn": "5.55"
+      }
     }
+
   },
   "maumima": {
     "MicroscopeExamination": {
@@ -4856,7 +5135,28 @@
         "clay": "20",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.58",
+        "Cu": "0.08",
+        "Fe": "29.93",
+        "Mn": "78.75"
+      },
+      "Playground": {
+        "Zn": "0.37",
+        "Cu": "0.02",
+        "Fe": "3.00",
+        "Mn": "29.03"
+      },
+      "Agriculture": {
+        "Zn": "0.23",
+        "Cu": "0.03",
+        "Fe": "41.39",
+        "Mn": "10.56"
+      }
     }
+
   },
   "holagarh": {
     "MicroscopeExamination": {
@@ -5080,7 +5380,28 @@
         "clay": "30",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.60",
+        "Cu": "0.03",
+        "Fe": "38.9",
+        "Mn": "77.62"
+      },
+      "Playground": {
+        "Zn": "0.33",
+        "Cu": "0.04",
+        "Fe": "BDL",
+        "Mn": "8.96"
+      },
+      "Agriculture": {
+        "Zn": "0.30",
+        "Cu": "0.05",
+        "Fe": "34.34",
+        "Mn": "39.98"
+      }
     }
+
   },
   "bhagwatpur ": {
     "MicroscopeExamination": {
@@ -5304,6 +5625,27 @@
         "clay": "24",
         "textureClass": "Sandy clay loam"
       }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.40",
+        "Cu": "0.03",
+        "Fe": "9.62",
+        "Mn": "71.04"
+      },
+      "Playground": {
+        "Zn": "0.33",
+        "Cu": "0.03",
+        "Fe": "94.24",
+        "Mn": "7.38"
+      },
+      "Agriculture": {
+        "Zn": "0.27",
+        "Cu": "0.02",
+        "Fe": "43.76",
+        "Mn": "5.66"
+      }
     }
+
   }
 }
