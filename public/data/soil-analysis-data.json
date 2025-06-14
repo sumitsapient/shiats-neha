@@ -490,7 +490,7 @@
     }
 
   },
-  "shankargarh ": {
+  "sankargarh ": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -1227,7 +1227,7 @@
     }
 
   },
-  "meja ": {
+  "meja" : {
     "MicroscopeExamination": {
       "Block": {
         "image": "Light Yellowish brown colour soil. Absence of lime slag coal broken brick and ash particle",
@@ -1655,68 +1655,68 @@
           "cumulativeRetained": "99.98",
           "percentFiner": "0.02"
         }
-      ],
-      "PercentageOrganicContent": {
-        "Block": "0.09",
-        "Playground": "0.23",
-        "Agriculture": "0.15"
-      },
-      "SoilConsistencyEstimation": {
-        "Block": {
-          "stickiness": "Sticky",
-          "plasticity": "Plasticity"
-        },
-        "Playground": {
-          "stickiness": "Slightly sticky",
-          "plasticity": "Very plasticity"
-        },
-        "Agriculture": {
-          "stickiness": "Sticky",
-          "plasticity": "Slightly plasticity"
-        }
-      },
-      "SoilTextureExamination": {
-        "Block": {
-          "sand": "76",
-          "silt": "8",
-          "clay": "16",
-          "textureClass": "Sandy loam"
-        },
-        "Playground": {
-          "sand": "61",
-          "silt": "6",
-          "clay": "33",
-          "textureClass": "Sandy clay loam"
-        },
-        "Agriculture": {
-          "sand": "80",
-          "silt": "5",
-          "clay": "15",
-          "textureClass": "Sandy loam"
-        }
-      },
-      "HeavyMetalConcentration": {
-        "Block": {
-          "Zn": "0.52",
-          "Cu": "0.02",
-          "Fe": "40.59",
-          "Mn": "31.27"
-        },
-        "Playground": {
-          "Zn": "0.31",
-          "Cu": "0.04",
-          "Fe": "93.74",
-          "Mn": "74.12"
-        },
-        "Agriculture": {
-          "Zn": "0.34",
-          "Cu": "0.05",
-          "Fe": "14.72",
-          "Mn": "41.31"
-        }
-      }
+      ]},
 
-    }},
+    "PercentageOrganicContent": {
+      "Block": "0.09",
+      "Playground": "0.23",
+      "Agriculture": "0.15"
+    },
+    "SoilConsistencyEstimation": {
+      "Block": {
+        "stickiness": "Sticky",
+        "plasticity": "Plasticity"
+      },
+      "Playground": {
+        "stickiness": "Slightly sticky",
+        "plasticity": "Very plasticity"
+      },
+      "Agriculture": {
+        "stickiness": "Sticky",
+        "plasticity": "Slightly plasticity"
+      }
+    },
+    "SoilTextureExamination": {
+      "Block": {
+        "sand": "76",
+        "silt": "8",
+        "clay": "16",
+        "textureClass": "Sandy loam"
+      },
+      "Playground": {
+        "sand": "61",
+        "silt": "6",
+        "clay": "33",
+        "textureClass": "Sandy clay loam"
+      },
+      "Agriculture": {
+        "sand": "80",
+        "silt": "5",
+        "clay": "15",
+        "textureClass": "Sandy loam"
+      }
+    },
+    "HeavyMetalConcentration": {
+      "Block": {
+        "Zn": "0.52",
+        "Cu": "0.02",
+        "Fe": "40.59",
+        "Mn": "31.27"
+      },
+      "Playground": {
+        "Zn": "0.31",
+        "Cu": "0.04",
+        "Fe": "93.74",
+        "Mn": "74.12"
+      },
+      "Agriculture": {
+        "Zn": "0.34",
+        "Cu": "0.05",
+        "Fe": "14.72",
+        "Mn": "41.31"
+      }
+    }
+  },
   "koraon": {
     "MicroscopeExamination": {
       "Block": {
@@ -2208,7 +2208,7 @@
     }
 
   },
-  "saidabad ": {
+  "saidabad": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -2453,7 +2453,7 @@
     }
 
   },
-  "handia ": {
+  "handia": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -3193,7 +3193,7 @@
     }
 
   },
-  "shasho ": {
+  "shasho": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -3929,7 +3929,7 @@
     }
 
   },
-  "bahadurpur ": {
+  "bahadurpur": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -4668,7 +4668,7 @@
     }
 
   },
-  "kaurihara ": {
+  "kaurihara": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
@@ -5403,7 +5403,7 @@
     }
 
   },
-  "bhagwatpur ": {
+  "bhagwatpur": {
     "MicroscopeExamination": {
       "Block": {
         "image": "",
